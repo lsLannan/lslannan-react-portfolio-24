@@ -1,5 +1,4 @@
 import CardList from '../components/ProjectCard.js';
-import ProjectCard from '../components/ProjectCard.js';
 import '../styles/Projects.css';
 
 export default function Projects() {
