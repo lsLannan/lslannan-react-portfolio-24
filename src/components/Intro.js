@@ -22,7 +22,7 @@ export default function Intro() {
             </div>
             <div className="profile">
                 <span className='circle'>
-                    <img className="profile-pic" src={require('../images/picrew-icon-lully-plain.png')} />
+                    <img className="profile-pic" src={require('../images/picrew-icon-lully-plain.png')} alt="blue haired avatar"/>
                 </span>
             </div>
         </div>
