@@ -17,7 +17,7 @@ export default function Intro() {
 
                 <span className="links">
                     <a href='../images/Liberty-S-Lannan-CV-24.docx' download><button className='cta-btn'>check out my cv</button></a>
-                    <a href='https://github.com/lsLannan' target='_blank'><p>or my github</p></a>
+                    <a href='https://github.com/lsLannan' target='_blank' rel="noreferrer"><p>or my github</p></a>
                 </span>
             </div>
             <div className="profile">

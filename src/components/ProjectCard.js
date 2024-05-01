@@ -61,8 +61,8 @@ function ProjectCard(props) {
                 <p className='stack-used'>{props.projects.stackUsed}</p>
                 <p>{props.projects.description}</p>
                 <div className="project-btns">
-                    <button className='github-btn btn'><a href={props.projects.projectGithub} target='_blank'><i class="fa-brands fa-github" title='GitHub'></i></a></button>
-                    <button className='visit-btn btn'><a href={props.projects.projectLink} target='_blank'>Visit the site</a></button>
+                    <button className='github-btn btn'><a href={props.projects.projectGithub} target='_blank' rel="noreferrer"><i class="fa-brands fa-github" title='GitHub'></i></a></button>
+                    <button className='visit-btn btn'><a href={props.projects.projectLink} target='_blank' rel="noreferrer">Visit the site</a></button>
                 </div>
             </div>
         </div>
