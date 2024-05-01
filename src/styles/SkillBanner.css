@@ -9,8 +9,8 @@
 
 .skills {
     padding: 20px 0;
-    background: rgb(187,115,249);
-    background: linear-gradient(90deg, rgba(187,115,249,1) 0%, rgba(28,222,185,1) 100%); 
+    background: var(--primary-site-colour);
+    background: linear-gradient(90deg, var(--primary-site-colour) 0%, var(--secondary-site-colour) 100%); 
     overflow: hidden;
     display: flex;
     flex-wrap: nowrap;
@@ -32,12 +32,12 @@
 
 .skills::before {
     left: 0;
-    background: linear-gradient(to left, rgba(255,255,255,0), rgba(187,115,249,1));
+    background: linear-gradient(to left, rgba(255,255,255,0), var(--primary-site-colour));
 }
 
 .skills::after {
     right: 0;
-    background: linear-gradient(to right, rgba(255,255,255,0), rgba(28,222,185,1));
+    background: linear-gradient(to right, rgba(255,255,255,0), var(--secondary-site-colour));
 }
 
 

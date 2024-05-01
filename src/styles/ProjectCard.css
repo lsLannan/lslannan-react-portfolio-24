@@ -1,5 +1,5 @@
 .project-card-container {
-    background-color: #F9F4FB;
+    background-color: var(--background-colour);
     border-radius: 25px;
     width: 20%;
     margin: 25px;
@@ -28,7 +28,7 @@
 }
 
 .stack-used i:hover {
-    color: rgba(187,115,249,1);
+    color: var(--primary-site-colour);
 }
 
 .project-btns {
@@ -39,7 +39,7 @@
 
 .visit-btn {
     border: none;
-    background-color: rgba(187,115,249,1);
+    background-color: var(--primary-site-colour);
     border-radius: 15px;
     width: 75%;
     padding: 10px 0;
@@ -55,7 +55,7 @@
 }
 
 .github-btn i:hover {
-    color: rgba(28,222,185,1);
+    color: var(--secondary-site-colour);
 }
 
 
@@ -69,6 +69,6 @@
 }
 
 .visit-btn:hover {
-    background-color: rgb(148, 83, 206);
+    background-color: var(--primary-site-colour);
     cursor: pointer;
 }
