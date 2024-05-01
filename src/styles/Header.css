@@ -1,0 +1,41 @@
+nav {
+    background-color: #F9F4FB;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.lslannan {
+    color: black;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    color: black;
+}
+
+ul a:hover {
+    color: rgb(187,115,249);
+    text-decoration: underline;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.dark-btn {
+    border-radius: 25px;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 20px;
+    background: rgb(187,115,249);
+    background: linear-gradient(90deg, rgba(187,115,249,1) 0%, rgba(28,222,185,1) 100%); 
+    cursor: pointer;
+}

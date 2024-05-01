@@ -1,0 +1,74 @@
+.project-card-container {
+    background-color: #F9F4FB;
+    border-radius: 25px;
+    width: 20%;
+    margin: 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.project-all-info {
+    margin: 15px;
+    text-align: start;
+}
+
+.project-img {
+    border-radius: 5px;
+    margin: 10px;
+    width: 95%;
+    overflow: hidden;
+    aspect-ratio: 3/2;
+}
+
+.stack-used {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stack-used i:hover {
+    color: rgba(187,115,249,1);
+}
+
+.project-btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.visit-btn {
+    border: none;
+    background-color: rgba(187,115,249,1);
+    border-radius: 15px;
+    width: 75%;
+    padding: 10px 0;
+}
+
+.visit-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.github-btn i {
+    font-size: 25px;
+}
+
+.github-btn i:hover {
+    color: rgba(28,222,185,1);
+}
+
+
+.github-btn {
+    border: none;
+    background-color: lightgray;
+    border-radius: 15px;
+    width: 25%;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.visit-btn:hover {
+    background-color: rgb(148, 83, 206);
+    cursor: pointer;
+}

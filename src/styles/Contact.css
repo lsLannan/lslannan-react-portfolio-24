@@ -1,0 +1,17 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.contact p:hover {
+    color: rgba(28,222,185,1);
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
