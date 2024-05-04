@@ -7,6 +7,7 @@ nav {
 .lslannan {
     color: black;
     font-weight: bolder;
+    font-size: 5vh;
 }
 
 ul {
@@ -31,11 +32,28 @@ ul a {
 }
 
 .dark-btn {
-    border-radius: 25px;
-    border: none;
-    padding: 15px 30px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-site-colour);
     margin-right: 20px;
     background: var(--primary-site-colour);
     background: linear-gradient(90deg, var(--primary-site-colour) 0%, var(--secondary-site-colour) 100%); 
     cursor: pointer;
+}
+
+.dark-btn:hover {
+    border: 1px solid black;
+}
+
+.dark-btn img {
+    margin-top: 2px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    nav a{
+        display: none;
+    }
+    nav {
+        margin: 20px 0 0 0;
+    }
 }

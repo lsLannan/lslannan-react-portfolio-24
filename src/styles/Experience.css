@@ -1,3 +1,18 @@
 .timeline {
     width: 75%;
 }
+
+.mobile-timeline {
+    display: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    .timeline {
+        display: none;
+    }
+    .mobile-timeline {
+        display: block;
+        width: 100%;
+    }
+}

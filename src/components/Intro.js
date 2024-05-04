@@ -4,10 +4,8 @@ export default function Intro() {
     return (
         <div className="intro-container" id="about-me">
             <div className="info">
-                <span>
                     <h1>Liberty Lannan</h1>
                     <h2>Front End Development</h2>
-                </span>
                 <p>
                 <i class="fa-solid fa-hand-sparkles"></i> I'm Liberty, a final year Computer Science undergraduate with a passion for turning
                     ideas into interactive, user-centric experiences. Eager to begin on a career in
@@ -25,6 +23,7 @@ export default function Intro() {
                     <img className="profile-pic" src={require('../images/picrew-icon-lully-plain.png')} alt="blue haired avatar"/>
                 </span>
             </div>
+            
         </div>
     );
 }

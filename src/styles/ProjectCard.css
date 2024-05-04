@@ -72,3 +72,10 @@
     background-color: var(--primary-site-colour);
     cursor: pointer;
 }
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    .project-card-container {
+        width: 100%;
+    }
+}

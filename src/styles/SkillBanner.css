@@ -47,11 +47,19 @@
 
 .skill {
     color: white;
-    font-size: 60px;
-    margin: 10px 80px;
+    font-size: 6vh;
+    margin: 1vh 8vh;
 }
 
 .skills-slide {
     display: flex;
     animation: 40s slide infinite linear;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    .skill {
+        font-size: 5vh;
+        margin: 1vh 4vh;
+    }
 }
