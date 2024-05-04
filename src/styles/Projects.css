@@ -7,7 +7,7 @@
 }
 
 .projects-container {
-   display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -16,5 +16,11 @@
 
 /* MOBILE */
 @media only screen and (max-width: 600px) {
-
+    .projects-container {
+        margin: 2vh;
+    }
+    .container h2 {
+        margin: 1vh;
+        font-size: 2vh;
+    }
 }

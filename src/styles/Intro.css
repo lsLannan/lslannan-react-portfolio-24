@@ -33,9 +33,9 @@
     border: 5px solid var(--primary-site-colour);
     border-radius: 30px;
     background: transparent;
-    padding: 20px ;
+    padding: 2vh;
     cursor: pointer;
-    width: 400px;
+    width: 40vh;
     margin-right: 75px;
 }
 
@@ -62,8 +62,8 @@
 }
 
 .profile-pic {
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 40vh;
 }
 
 /* MOBILE */
