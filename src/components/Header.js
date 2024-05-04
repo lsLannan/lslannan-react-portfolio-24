@@ -9,7 +9,7 @@ function Header() {
                 <li><a href="#skills">skills</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#contact">contact</a></li>
-                <button className='dark-btn' title='dark mode'><img src={require("../images/icons8-light-48.png")} alt='light bulb'/></button>
+                <button className='dark-btn' title='dark mode' disabled><img src={require("../images/icons8-light-48.png")} alt='light bulb' aria-label='dark mode toggle'/></button>
             </ul>
         </nav>
     );

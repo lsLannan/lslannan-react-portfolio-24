@@ -3,10 +3,7 @@ footer {
     background: linear-gradient(90deg, var(--primary-site-colour) 0%, var(--secondary-site-colour) 100%); 
     color: white;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: center;
     font-size: 15px;
-}
-
-footer p {
-    margin-right: 25px;
 }

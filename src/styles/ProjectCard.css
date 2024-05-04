@@ -1,8 +1,8 @@
 .project-card-container {
     background-color: var(--background-colour);
     border-radius: 25px;
-    width: 33%;
-    margin: 25px;
+    width: 30%;
+    margin: 2vh;
     color: black;
     display: flex;
     flex-direction: column;
@@ -77,5 +77,6 @@
 @media only screen and (max-width: 600px) {
     .project-card-container {
         width: 100%;
+        margin: 1vh;
     }
 }

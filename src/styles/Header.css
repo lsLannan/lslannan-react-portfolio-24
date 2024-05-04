@@ -14,11 +14,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 li {
     list-style-type: none;
     color: black;
+    font-size: 3vh;
 }
 
 ul a:hover {
@@ -38,6 +40,7 @@ ul a {
     background: var(--primary-site-colour);
     background: linear-gradient(90deg, var(--primary-site-colour) 0%, var(--secondary-site-colour) 100%); 
     cursor: pointer;
+    display: flex;
 }
 
 .dark-btn:hover {
@@ -48,6 +51,15 @@ ul a {
     margin-top: 2px;
 }
 
+.dark-btn, .dark-btn img {
+    height: 5vh;
+    width: 5vh;
+}
+.dark-btn  {
+    justify-content: center;
+    align-items: center;
+}
+
 /* MOBILE */
 @media only screen and (max-width: 600px) {
     nav a{
@@ -56,7 +68,5 @@ ul a {
     nav {
         margin: 0;
     }
-    .dark-btn img {
-        margin-top: 0px;
-    }
+
 }
